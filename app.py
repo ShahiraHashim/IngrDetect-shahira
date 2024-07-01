@@ -1,4 +1,4 @@
-from ingrDetection.logger import logging
+from ingrDetection.pipeline.training_pipeline import TrainPipeline
 
-try:
-    a = 3 / "s"
+obj = TrainPipeline()
+obj.run_pipeline()
